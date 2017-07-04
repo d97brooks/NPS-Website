@@ -1,0 +1,23 @@
+<?php
+    /*   File: guest.php
+     * Author: Dalton Brooks
+     * MP 06
+     */
+     $page_title = "NPS Guest: Welcome";
+     $css_path = "../css/site.css";
+     $main_id = "guest-index";
+
+     include ('inc.guestheader.php');
+    
+?>
+<?php
+include('inc.guest.php');
+?>
+
+<?php
+    $copyright_year = "2017";
+    $copyright_text = "CS234-Spring. All rights reserved.";
+    $js_path = "../js/form.js";
+
+    include ('inc.guestfooter.php');
+?>
