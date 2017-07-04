@@ -1,0 +1,128 @@
+/*
+    Author: Dalton Brooks
+    Class: CS234-001
+    Version: MP06
+    File: CSS Stylesheet
+    */
+*{
+        border: 0;
+        margin: 4px;
+        padding: 0;
+        background: lightsteelblue;
+        box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+}
+body div#admin-parks{
+    text-align: center;
+    font-size: 110%;
+}
+a{
+color: darkgreen;
+}
+a:hover{
+    color: lightgreen;
+}
+body#admin ol{
+    width: 20%;
+    padding: 2%;
+    border: 1px solid darkgreen;
+    background-color: white;
+    text-align: left;
+    margin-left: 40%;
+}
+body ol li{
+    text-align: center;
+    background-color: white;
+}
+body ol li a{
+    text-align: center;
+    background-color: white;
+}
+body p#login{
+    text-align: right;
+    font-size: 90%;
+}
+body div#welcome h1{
+border: 2px solid darkolivegreen;
+text-align: center;
+padding: 1%;
+color: darkolivegreen;
+background-color: white;
+}
+body div#welcome img#NPS-logo{
+width: 6%;
+background-color: white;
+}
+body h3{
+text-align: center;
+font-style: italic;
+}
+
+body div h4{
+    border: 2px solid darkolivegreen;
+margin-top: 20px;
+text-align: center;
+font-size: 150%;
+background-color: white;
+}
+body div{
+    font-size: 120%;
+    text-align: center;
+}
+
+body div#contact p{
+    font-style: italic;
+}
+
+body div p#for-questions{
+width: 100%;
+text-align: center;
+
+}
+body div img#images {
+    margin-left: 15%;
+    width: 33%;
+    height: auto;
+    float: left; 
+    max-width: 235px;
+}
+body div img#login-image {
+    height: auto;
+    float: center; 
+    max-width: 99.5%;
+}
+body h2#admin-header{
+    border: 2px solid darkolivegreen;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 150%;
+}
+body div#admin-login{
+    width: 99%;
+    padding: 5%;
+    display: inline-block;
+    border: 2px solid darkolivegreen;
+    box-sizing: border-box;
+    margin: 7px;
+    background-color: white;
+}
+body div p input{
+    background-color: white;
+    border: 2px solid darkolivegreen;
+    padding: 0;
+}
+/* log in button*/
+body div form button{
+    background-color: lightblue;
+    width: 20%;
+    border: 2px solid white;
+}
+body footer{
+    border: 1px solid white;
+    text-align: center;
+    font-size: 85%;
+    color: lightgrey;
+}
